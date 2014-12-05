@@ -60,7 +60,7 @@ if watchedNum != len(list1):
 			print 'The first Movie will be ' + list1[firstMovie].name + ' starring ' + list1[firstMovie].actor + ' and filmed in ' + list1[firstMovie].year
 			print 'The second Movie will be ' + list1[secondMovie].name + ' starring ' + list1[secondMovie].actor + ' and filmed in ' + list1[secondMovie].year
 		else:
-			print "since there is a odd number of movies we only have 1 left..."
+			print "since there is an odd number of movies we only have 1 left..."
 			if list1[secondMovie].watched == 1: 
 				print 'The Movie will be ' + list1[firstMovie].name + ' starring ' + list1[firstMovie].actor + ' and filmed in ' + list1[firstMovie].year
 			else:
